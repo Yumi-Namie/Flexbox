@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yumi">
+    <meta name="description" content="Project: Flexbox CSS">
+    <title>Flexbox</title>
+
+    <!------------ links css files ------------>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+</head>
+<main>
+    <!------------ HEADER - NAVBAR ------------>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="hd-products"><a href="#">products</a></li>
+                <li class="hd-discounts"><a href="#">discounts</a></li>
+                <li class="hd-logo"><a href="#"><img src="assets/img/logo.svg" alt="logo icon" ></a></li>
+                <li class="hd-partners"><a href="#">our partners</a></li>
+                <li class="hd-about"><a href="#">about us</a></li>
+            </ul>
+        </nav>
+        <nav class="hamb-menu">
+            <div>
+                <a href="#" class="icon-menu">
+                    <img src="assets/img/Hamburger_icon.svg.png" alt="Menu">
+                </a> 
+                <ul class="toggle-list">
+                    <li class="hd-products"><a href="#">products</a></li>
+                    <li class="hd-discounts"><a href="#">discounts</a></li>
+                    <li class="hd-partners"><a href="#">our partners</a></li>
+                    <li class="hd-about"><a href="#">about us</a></li>
+                </ul>
+            </div>
+            <a class="hd-logo-hb" href="#">
+                <img src="assets/img/logo.svg" alt="logo icon" >
+            </a>
+
+        </nav>
+        <script src="js/script.js"></script>
+    </header>
+
+    <!------------ BODY ------------>
+    <body>
+        <container class="mainbox">
+            <div class="maintxt">
+                <h1>products</h1>
+                <h3>Affordable quality, every time.</h3>
+            </div>
+            <div class="containerbox">
+                <!-- box 1 -->
+                <div class="box">
+                    <div class="circle">
+                        <img src="assets/img/matte.svg" alt="matte circle"></img>
+                    </div>
+                    <h2>matte</h2>
+                    <hr>
+                    <p>a subtle but elegant finish for low-touch and delicate surfaces</p>
+                    <button href="#">explore</button>
+                </div>
+
+                <!-- Box 2 -->
+                <div class="box">
+                    <div class="circle">
+                        <img src="assets/img/semigloss.svg" alt="semi-gloss circle"></img>
+                    </div>            
+                    <h2>semi-gloss</h2>
+                    <hr>
+                    <p>our signature finish for high-wear parts, details and surfaces</p>
+                    <button href="#">explore</button>
+                </div>
+
+                <!-- Box 3 -->
+                <div class="box">
+                    <div class="circle">
+                        <img src="assets/img/highgloss.svg" alt="high-gloss circle"></img>
+                    </div>
+                    <h2>high-gloss</h2>
+                    <hr>
+                    <p>an eye-stopping shine best for metal and other smooth surfaces</p>
+                    <button href="#">explore</button>
+                </div>
+            </div>
+        </container>
+    </body> 
+
+    <!------------ FOOTER ------------>
+    <footer class="footerbar">
+        <p>© GEM PAINT CO </p>
+    </footer>
+</main>
+</html>

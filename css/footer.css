@@ -1,0 +1,26 @@
+/*----------- CSS FOOTER------------- */
+
+/*----------- Reset------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footerbar {
+    position: fixed; /* adicionar position: fixed */
+    bottom: 0; /* adicionar bottom: 0 */
+    width: 100%; /* adicionar largura de 100% */
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footerbar p {
+    font-size: 12px;
+    line-height: 50px;
+    color: white;
+}
+
+    

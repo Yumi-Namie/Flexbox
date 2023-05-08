@@ -1,0 +1,53 @@
+/*----------- CSS HEADER------------- */
+
+/*----------- Reset------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+nav .hd-logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .hd-logo img {
+height: 50px;
+align-self: center;
+margin-top: 25px;
+margin-bottom: 20px;
+}
+
+.navbar a {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color:white;
+}
+
+.hamb-menu {
+    display: none;
+  }
+
+.icon-menu {
+    display: block;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: transparent;
+}
